@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cocapn-traps"
+version = "1.0.0"
+description = "Crab trap management — create, evaluate, and track prompts that lure AI agents"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+authors = [
+    {name = "Cocapn Fleet", email = "fleet@cocapn.ai"}
+]
+
+[project.scripts]
+cocapn-traps = "cocapn_traps.cli:main"
+
+[project.urls]
+Homepage = "https://github.com/SuperInstance/cocapn-traps"
+Repository = "https://github.com/SuperInstance/cocapn-traps"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
