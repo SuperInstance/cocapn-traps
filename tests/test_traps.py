@@ -1,5 +1,4 @@
 """Tests for cocapn-traps."""
-import json
 import tempfile
 import os
 from pathlib import Path
