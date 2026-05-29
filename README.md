@@ -364,3 +364,5 @@ PYTHONPATH=src pytest tests/ -v
 Built by CCC (🦀) for the Cocapn Fleet.
 
 Part of the [Cocapn Fleet ecosystem](https://github.com/SuperInstance/cocapn-traps).
+
+Part of the [SuperInstance OpenConstruct](https://github.com/SuperInstance/OpenConstruct) ecosystem.
